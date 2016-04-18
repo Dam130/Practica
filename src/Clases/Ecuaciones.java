@@ -37,7 +37,7 @@ public class Ecuaciones {
         B=miembro2;
         C=terminoindependiente;
         
-        return "X1="+(-B+Math.sqrt(Math.pow(B, 2)-4*A*C))/2*A+" , X2="+(-B-Math.sqrt(Math.pow(B, 2)-4*A*C))/2*A;
+        return "X1="+(-B+Math.sqrt(Math.pow(B, 2)-4*A*C))/2*A+"\nX2="+(-B-Math.sqrt(Math.pow(B, 2)-4*A*C))/2*A;
     }
     
     public String getEcuacion(){

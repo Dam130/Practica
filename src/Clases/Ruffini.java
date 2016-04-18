@@ -11,4 +11,18 @@ package Clases;
  */
 public class Ruffini {
     
+    private int grado;
+    private double numeros[]=new double[grado];
+    
+    public Ruffini(int grado){
+        int entrada=0;
+        if(grado<=3){
+            for(int i=0;i<=grado;i++){
+            numeros[i]=entrada;
+            }
+        }else if(grado==2){
+            System.out.println("Ecuacion de 2º grado");
+        }
+        
+    }
 }
