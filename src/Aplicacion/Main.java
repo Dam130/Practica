@@ -28,7 +28,7 @@ public class Main {
         
         int[] valores=new int[]{6,-2,0};
         Ecuacion ecuacion2=new Ecuacion(valores);
-        System.out.println(ecuacion2.getEcuacion());
-        System.out.println("El resultado es: "+ecuacion2.resolverEcuacion());
+//        System.out.println(ecuacion2.getEcuacion());
+//        System.out.println("El resultado es: "+ecuacion2.resolverEcuacion());
     }
 }
